@@ -27,7 +27,6 @@ h1 {
 }
 
 #school:hover {
-    background-color: lightgray;
     font-size: 23px;
 }
 
@@ -139,11 +138,9 @@ header {
     border-color: black;
     border-width: 3px;
     border-style: solid;
-    border-radius: 3px; 
-}
-
-.main {
-    margin-top: 100px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
 }
 
 a {
@@ -153,3 +150,8 @@ a {
 a:hover {
     color: lightslategrey;
 }
+
+.main {
+    margin-top: 100px;
+}
+
