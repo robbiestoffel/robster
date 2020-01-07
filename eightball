@@ -1,0 +1,31 @@
+#/bin/bash
+
+eightball () {
+    declare -a answers
+    anwsers=(
+        "Yes"
+        "No way"
+        "It will not happen"
+        "That Question asks to much"
+        "Rare, but just Mabey"
+        "Of Course"
+        "You already now the anwser to that Question"
+        "Try Again"
+        "No"
+        "Why are you so unsure?"
+        "NO"
+        "I think so"
+        "Why would that not happen"
+        "Try again"
+        "Invailed Question"
+        "Why yes!"
+    )
+    echo Welcome to the Magic eightball
+    echo
+    read -p "Q: " question
+    echo ${answers[$(( RANDOM % 16 ))]}
+}
+
+eightball
+
+echo outside eightball $answers
