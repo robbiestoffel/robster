@@ -160,8 +160,7 @@ a:hover {
     color: green;
 }
 
-@media only screen and (max-width: 9
-990px) {
+@media only screen and (min-width: 99990px) {
   body {
     background-color: lightblue;
   }
