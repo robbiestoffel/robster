@@ -17,3 +17,7 @@ Worked to finish up things that we didn't get to in the coding lesson. Worded on
 # January 7, 2020
 
 Work on Web Site for 1 hour and 30 min. Added Beta testing sign, worked on setting up the website for a phone, moved eightball project in and sorted terminal files in repos!
+
+# January 12, 2020 - Lesson
+
+Put Github website on skilstak computer.
