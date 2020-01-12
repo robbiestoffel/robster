@@ -12,7 +12,7 @@ h1 {
 }
 
 #school {
-    background-color: white;
+    background-color: black;
     border-color: darkred;
     border-width: 3px;
     border-style: solid;
@@ -49,7 +49,7 @@ h1 {
 }
 
 .coding-text {
-    background-color: rgba(256, 256, 256, 90%)
+    background-color: rgba(0, 0, 0, 90%)
 }
 
 .coding-img {
@@ -57,7 +57,7 @@ h1 {
 }
 
 #ec {
-    background-color: white;
+    background-color: black;
     border-color: yellow;
     border-width: 3px;
     border-style: solid;
@@ -72,7 +72,7 @@ h1 {
 }
 
 #erf {
-    background-color: white;
+    background-color: black;
     border-color: darkgreen;
     border-width: 3px;
     border-style: solid;
@@ -87,7 +87,7 @@ h1 {
 }
 
 #links {
-    background-color: white;
+    background-color: black;
     border-color: darkblue;
     border-width: 3px;
     border-style: solid;
@@ -130,7 +130,7 @@ li:hover {
 
 header {
     position: fixed;
-    background-color: white;
+    background-color: black;
     top: 0;
     right: 0;
     left: 0;
@@ -151,13 +151,25 @@ a:hover {
     color: lightslategrey;
 }
 
-.main {
+#text {
     margin-top: 100px;
+    background-color: black;
 }
 
 .beta-sign {
     text-align: end;
     color: green;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: block;
+    max-width: 60em;
+    margin: auto;
 }
 
 @media only screen and (min-width: 9990px) {
