@@ -14,7 +14,7 @@ h1 {
 #school {
     background-color: black;
     
-    border-color: darkred;
+    border-color: green;
     border-width: 3px;
     border-style: solid;
     border-radius: 5px;
@@ -97,7 +97,7 @@ h1 {
 
 #links {
     background-color: black;
-    border-color: darkblue;
+    border-color: green;
     border-width: 3px;
     border-style: solid;
     border-radius: 5px;
@@ -181,14 +181,9 @@ main {
     display: block;
     max-width: 60em;
     margin: auto;
+    margin-top: 90px;
 }
 
 .align-end {
     text-align: end;
-}
-
-@media only screen and (min-width: 9990px) {
-  body {
-    background-color: lightblue;
-  }
 }
