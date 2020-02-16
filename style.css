@@ -55,7 +55,6 @@ h1 {
 }
 
 #ec {
-    background-color: black;
     right: 0;
     left: 0;
     top: 0;
@@ -77,11 +76,10 @@ h1 {
 }
 
 .piano:hover, .ootm:hover {
-    background-color: rgba(25, 25, 25, 50%);
+    background-color: rgba(40, 40, 40, 50%);
 }
 
 #erf {
-    background-color: black;
     border-color: darkgreen;
     border-width: 3px;
     border-style: solid;
@@ -96,7 +94,6 @@ h1 {
 }
 
 #links {
-    background-color: black;
     border-color: green;
     border-width: 3px;
     border-style: solid;
@@ -141,7 +138,7 @@ ul .nav {
 
 header {
     position: fixed;
-    background-color: black;
+    background-color: rgb(25,25,25);
     top: 0;
     right: 0;
     left: 0;
@@ -165,7 +162,6 @@ a:hover {
 
 #text {
     margin-top: 100px;
-    background-color: black;
 }
 
 .beta-sign {
@@ -174,7 +170,7 @@ a:hover {
 }
 
 body {
-    background-color: black;
+    background-color: rgb(25,25,25);
     color: white;
 }
 
