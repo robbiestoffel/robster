@@ -61,14 +61,14 @@ class Main extends Phaser.Scene {
 
 
     let coins = this.physics.add.staticGroup()
-    coins.create(30, 25, 'coin')
-    coins.create(300, 350, 'coin')
-    coins.create(20, 350, 'coin')
-    coins.create(400, 90, 'coin')
-    coins.create(350, 330, 'coin')
-    coins.create(320, 500, 'coin')
-    coins.create(100, 350, 'coin')
-    coins.create(150, 25, 'coin')
+    coins.create(rX(), rY(), 'coin')
+    coins.create(rX(), rY(), 'coin')
+    coins.create(rX(), rY(), 'coin')
+    coins.create(rX(), rY(), 'coin')
+    coins.create(rX(), rY(), 'coin')
+    coins.create(rX(), rY(), 'coin')
+    coins.create(rX(), rY(), 'coin')
+    coins.create(rX(), rY(), 'coin')
 
 
     let score = 0
