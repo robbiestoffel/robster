@@ -79,7 +79,7 @@ class Main extends Phaser.Scene {
       fontFamily: 'cursive',
     })
     
-    if (calcscore/8 = 1) {
+    if (calcscore / 8 = 1) {
       let calcscore = 0
       spawnCoins()
     }
