@@ -59,28 +59,35 @@ class Main extends Phaser.Scene {
     plats.create(200, 285, 'pf').setScale(4, 1).refreshBody()
     plats.create(525, 600, 'pf').setScale(4, 1).refreshBody()
 
-
-    let coins = this.physics.add.staticGroup()
-    coins.create(rX(), rY(), 'coin')
-    coins.create(rX(), rY(), 'coin')
-    coins.create(rX(), rY(), 'coin')
-    coins.create(rX(), rY(), 'coin')
-    coins.create(rX(), rY(), 'coin')
-    coins.create(rX(), rY(), 'coin')
-    coins.create(rX(), rY(), 'coin')
-    coins.create(rX(), rY(), 'coin')
-
-
+    const spawnCoins = () => {
+      let coins = this.physics.add.staticGroup()
+      coins.create(rX(), rY(), 'coin')
+      coins.create(rX(), rY(), 'coin')
+      coins.create(rX(), rY(), 'coin')
+      coins.create(rX(), rY(), 'coin')
+      coins.create(rX(), rY(), 'coin')
+      coins.create(rX(), rY(), 'coin')
+      coins.create(rX(), rY(), 'coin')
+      coins.create(rX(), rY(), 'coin')
+    }
+    
+    let calcscore = 0
     let score = 0
     let scoreText = this.add.text(700, 16, 'Score: 0', {
       color: 'red',
       fontSize: '64px',
       fontFamily: 'cursive',
     })
-
+    
+    if (calcscore/8 = 1) {
+      let calcscore = 0
+      spawnCoins()
+    }
+    
     const collectCoin = (pl, coin) => {
       pickup.play()
       score += 1
+      calcscore += 1
       scoreText.setText(`Score: ${score}`)
       coin.destroy()
     }
