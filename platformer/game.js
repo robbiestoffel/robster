@@ -71,17 +71,11 @@ class Main extends Phaser.Scene {
       coins.create(rX(), rY(), 'coin')
     }
     
-    let calcscore = 0
     let score = 0
     let scoreText = this.add.text(700, 16, 'Score: 0', {
       color: 'red',
       fontSize: '64px',
       fontFamily: 'cursive',
-    })
-    
-    if (calcscore / 8 = 1) {
-      let calcscore = 0
-      spawnCoins()
     }
     
     const collectCoin = (pl, coin) => {
