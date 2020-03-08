@@ -70,6 +70,7 @@ class Main extends Phaser.Scene {
       coins.create(rX(), rY(), 'coin')
       coins.create(rX(), rY(), 'coin')
     }
+    spawnCoins()
     
     let score = 0
     let scoreText = this.add.text(700, 16, 'Score: 0', {
