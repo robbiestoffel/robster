@@ -76,7 +76,7 @@ class Main extends Phaser.Scene {
       color: 'red',
       fontSize: '64px',
       fontFamily: 'cursive',
-    }
+    })
     
     const collectCoin = (pl, coin) => {
       pickup.play()
