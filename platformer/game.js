@@ -58,9 +58,9 @@ class Main extends Phaser.Scene {
     plats.create(350, 100, 'pf').setScale(4, 1).refreshBody()
     plats.create(200, 285, 'pf').setScale(4, 1).refreshBody()
     plats.create(525, 600, 'pf').setScale(4, 1).refreshBody()
-
+    
+    let coins = this.physics.add.staticGroup()
     const spawnCoins = () => {
-      let coins = this.physics.add.staticGroup()
       coins.create(rX(), rY(), 'coin')
       coins.create(rX(), rY(), 'coin')
       coins.create(rX(), rY(), 'coin')
