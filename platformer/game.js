@@ -71,7 +71,7 @@ class Main extends Phaser.Scene {
       coins.create(rX(), rY(), 'coin')
     }
     spawnCoins()
-    
+
     let score = 0
     let scoreText = this.add.text(700, 16, 'Score: 0', {
       color: 'red',
@@ -82,7 +82,6 @@ class Main extends Phaser.Scene {
     const collectCoin = (pl, coin) => {
       pickup.play()
       score += 1
-      calcscore += 1
       scoreText.setText(`Score: ${score}`)
       coin.destroy()
     }
