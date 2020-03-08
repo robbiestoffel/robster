@@ -97,10 +97,10 @@ class Main extends Phaser.Scene {
     }
 
 
-    this.physics.add.collider(pl, plats)
-    this.physics.add.overlap(pl, coins, collectCoin)
-    this.physics.add.collider(bad, plats)
-    this.physics.add.collider(pl, bad, hitBad)
+    this.physics.add.collider(pl, plats);
+    this.physics.add.overlap(pl, coins, collectCoin);
+    this.physics.add.collider(bad, plats);
+    this.physics.add.collider(pl, bad, hitBad);
 
     this.cameras.main.setBounds(0, 0, 1024, 767)
     this.cameras.main.setZoom()
