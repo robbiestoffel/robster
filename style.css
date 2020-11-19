@@ -63,19 +63,22 @@ ul .nav {
 }
 
 .nav {
+  display: inline-block;
   margin: 40px;
   border-color: lightslategray;
   border-width: 2px;
   border-style: solid;
   border-radius: 10px;
   padding: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
 }
 
 .nav:hover {
     box-shadow: 0px 0px 10px 9px lightslategray;
+}
+
+.navflexblock {
+    display: flex;
+    justify-content: end;
 }
 
 header {
