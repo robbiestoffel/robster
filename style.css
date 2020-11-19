@@ -76,7 +76,7 @@ ul .nav {
     box-shadow: 0px 0px 10px 9px lightslategray;
 }
 
-.navflexblock {
+.navflexbox {
     display: flex;
     justify-content: end;
 }
