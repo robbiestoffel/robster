@@ -96,10 +96,6 @@ a:hover {
     margin-top: 150px;
 }
 
-.beta-sign {
-    color: green;
-}
-
 body {
     background-color: rgb(25,25,25);
     color: white;
@@ -120,9 +116,8 @@ footer {
 
 .footerdiv {
     margin-right: 1rem;
-    margin-left: 1rem;
     border-color: lightslategray;
-    border-width: 2px;
+    border-width: 4px;
     border-style: solid;
     border-radius: 10px;
     padding: 5px;
