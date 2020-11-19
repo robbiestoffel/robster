@@ -137,7 +137,7 @@ main {
 footer {
     display: flex;
     flex-direction: row;
-    background-color: gray;
+    background-color: dark-gray;
 }
 
 .footerdiv {
