@@ -92,10 +92,6 @@ a:hover {
     color: tomato;
 }
 
-#text {
-    margin-top: 150px;
-}
-
 body {
     background-color: rgb(25,25,25);
     color: white;
@@ -105,7 +101,7 @@ main {
     display: block;
     max-width: 60em;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 10em;
 }
 
 footer {
@@ -120,7 +116,7 @@ footer {
     border-width: 4px;
     border-style: solid;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
 }
 
 li {
