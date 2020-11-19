@@ -42,20 +42,6 @@ h1 {
     width: 20em;
 }
 
-#erf {
-    border-color: darkgreen;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 5px;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: 1px;
-    text-align: center;
-    font-size: 20px;
-}
-
 ul .nav {
   text-align: center;
   list-style: none;
@@ -72,17 +58,10 @@ ul .nav {
   border-style: solid;
   border-radius: 10px;
   padding: 10px;
-  text-align: end;
-  justify-content: space-between;
 }
 
 .nav:hover {
     box-shadow: 0px 0px 10px 9px lightslategray;
-}
-
-.flex {
-    display: flex;
-    flex-direction: row;
 }
 
 header {
@@ -114,16 +93,15 @@ a:hover {
 }
 
 #text {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .beta-sign {
-    text-align: center;
     color: green;
 }
 
 body {
-    background-color: rgb(15,15,15);
+    background-color: rgb(25,25,25);
     color: white;
 }
 
@@ -141,8 +119,13 @@ footer {
 }
 
 .footerdiv {
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-color: lightslategray;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 li {
