@@ -27,13 +27,13 @@ body {
 #coding {
     position: relative;
     display: inline-block; /* Make the width of box same as image */
-    width: auto;
+    width: 100%;
 }
 
 #coding .coding-text {
     position: absolute;
     z-index: 2;
-    margin: 0 auto;
+    margin 0 auto;
     left: 0;
     right: 0;
     top: 30%; /* Adjust this value to move the positioned div up and down */
@@ -47,7 +47,11 @@ body {
 }
 
 .coding-img {
-    width: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
 }
 
 ul .nav {
