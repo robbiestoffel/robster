@@ -7,14 +7,27 @@ h1 h2 {
     text-align: center;
 }
 
-h1 {
-    border-color: black;
+.title {
+    margin-left: 5rem;
+}
+
+a {
+    color: lightslategrey;
+}
+
+a:hover {
+    color: tomato;
+}
+
+body {
+    background-color: rgb(25,25,25);
+    color: white;
 }
 
 #coding {
     position: relative;
     display: inline-block; /* Make the width of box same as image */
-    width: 100%;
+    width: auto;
 }
 
 #coding .coding-text {
@@ -34,12 +47,7 @@ h1 {
 }
 
 .coding-img {
-    width: 100%;
-}
-
-#ec-image {
-    height: 14.18em;
-    width: 20em;
+    width: auto;
 }
 
 ul .nav {
@@ -80,28 +88,10 @@ header {
     z-index: 20;
 }
 
-.title {
-    margin-left: 5rem;
-}
-
-a {
-    color: lightslategrey;
-}
-
-a:hover {
-    color: tomato;
-}
-
-body {
-    background-color: rgb(25,25,25);
-    color: white;
-}
-
 main {
     display: block;
-    max-width: 60em;
     margin: auto;
-    margin-top: 10em;
+    margin-top: 7em;
 }
 
 footer {
@@ -117,6 +107,10 @@ footer {
     border-style: solid;
     border-radius: 10px;
     padding: 10px;
+}
+
+.footerdiv:hover {
+    box-shadow: 0px 0px 10px 9px lightslategray;
 }
 
 li {
