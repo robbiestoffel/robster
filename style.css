@@ -44,8 +44,6 @@ body {
 
 .coding-text {
     background-color: rgba(25, 25, 25, 90%);
-    display: flex;
-    justify-content: center;
 }
 
 .coding-img {
@@ -72,6 +70,7 @@ ul .nav {
   border-style: solid;
   border-radius: 10px;
   padding: 10px;
+  display: flex;
   justify-content: end;
 }
 
