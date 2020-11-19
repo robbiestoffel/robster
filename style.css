@@ -78,7 +78,7 @@ ul .nav {
 
 .navflexbox {
     display: flex;
-    justify-content: end;
+    justify-content: right;
 }
 
 header {
