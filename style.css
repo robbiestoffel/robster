@@ -24,11 +24,11 @@ body {
     color: white;
 }
 
-.about {
-    margin-left: 20px;
+#about {
+    margin-left: 50px;
 }
 
-.coding {
+#coding {
     position: relative;
     display: inline-block; /* Make the width of box same as image */
     width: 100%;
