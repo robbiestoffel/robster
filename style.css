@@ -27,7 +27,7 @@ body {
 #coding {
     position: relative;
     display: inline-block; /* Make the width of box same as image */
-    width: auto;
+    width: 100%;
     display: flex;
     justfy-content: center;
 }
