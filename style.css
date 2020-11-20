@@ -38,12 +38,14 @@ body {
     right: 0;
     top: 30%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
-    width: 70%; /* Set the width of the positioned div */
+    /*width: 70%; /* Set the width of the positioned div */
     font-size: 20px;
 }
 
 .coding-text {
     background-color: rgba(25, 25, 25, 90%);
+    right: 20em;
+    left: 20em;
 }
 
 .coding-img {
