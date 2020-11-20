@@ -40,6 +40,8 @@ body {
     text-align: center;
     width: 70%; /* Set the width of the positioned div */
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .coding-text {
