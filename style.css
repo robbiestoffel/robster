@@ -28,8 +28,6 @@ body {
     position: relative;
     display: inline-block; /* Make the width of box same as image */
     width: 100%;
-    display: flex;
-    justfy-content: center;
 }
 
 #coding .coding-text {
@@ -50,10 +48,6 @@ body {
 
 .coding-img {
     width: 100%;
-    margin: 0;
-    padding: 0;
-    right: 0;
-    left: 0;
 }
 /**
 ul .nav {
