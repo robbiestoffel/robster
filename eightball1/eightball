@@ -22,10 +22,10 @@ eightball () {
     )
     echo Welcome to the Magic eightball
     echo
-    read -p "Q: " question
+    read -p "Put your question here:  " question
     echo ${answers[$(( RANDOM % 16 ))]}
 }
 
 eightball
 
-echo outside eightball $answers
+echo $answers

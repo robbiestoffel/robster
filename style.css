@@ -125,3 +125,8 @@ footer {
 li {
     list-style: none;
 }
+
+table {
+  border: 1px solid blue;
+  color: lightblue;
+}
