@@ -60,17 +60,14 @@ class Main extends Phaser.Scene {
     plats.create(525, 600, 'pf').setScale(4, 1).refreshBody()
     
     let coins = this.physics.add.staticGroup()
-    const spawnCoins = () => {
-      coins.create(rX(), rY(), 'coin')
-      coins.create(rX(), rY(), 'coin')
-      coins.create(rX(), rY(), 'coin')
-      coins.create(rX(), rY(), 'coin')
-      coins.create(rX(), rY(), 'coin')
-      coins.create(rX(), rY(), 'coin')
-      coins.create(rX(), rY(), 'coin')
-      coins.create(rX(), rY(), 'coin')
+    const spawnCoins = (b) => {
+      let a = 0;
+      while(a > b){
+        coins.create(rX(), rY(), 'coin')
+        a++;
+      }
     }
-    spawnCoins()
+    spawnCoins(8)
 
     let score = 0
     let scoreText = this.add.text(700, 16, 'Score: 0', {
@@ -84,6 +81,7 @@ class Main extends Phaser.Scene {
       score += 1
       scoreText.setText(`Score: ${score}`)
       coin.destroy()
+      spawnCoins(1)
     }
 
     const hitBad = (pl, bad) => {
