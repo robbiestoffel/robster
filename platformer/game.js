@@ -46,7 +46,6 @@ class Main extends Phaser.Scene {
       b.setScale(2)
       b.setBounce(1)
       b.setVelocity(200)
-      console.log('should spawn badguy')
     }
 
     spawnEnemy()
@@ -62,7 +61,7 @@ class Main extends Phaser.Scene {
     let coins = this.physics.add.staticGroup()
     const spawnCoins = (b) => {
       let a = 0;
-      while(a > b){
+      while(a < b){
         coins.create(rX(), rY(), 'coin')
         a++;
       }
