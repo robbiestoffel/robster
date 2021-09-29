@@ -61,8 +61,10 @@ class Main extends Phaser.Scene {
     
     let coins = this.physics.add.staticGroup()
     const spawnCoins = (b) => {
-      for(let a = 0; a > b; a++) {
+      let a = 0;
+      while(a > b){
         coins.create(rX(), rY(), 'coin')
+        a++;
       }
     }
     spawnCoins(8)
