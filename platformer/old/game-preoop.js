@@ -3,16 +3,16 @@ let pl, keys, plats, coins, go
 
 
 function preload() {
-  this.load.image('bg', './assets/backg.png')
-  this.load.image('coin', './assets/coin.png')
-  this.load.image('bad', './assets/bad-guy.png')
-  this.load.image('pf', './assets/platform.png')
-  this.load.image('go', './assets/game-over.png')
-  this.load.spritesheet('pl', './assets/good-guy.png',
+  this.load.image('bg', './assets/img/newbackg.png')
+  this.load.image('coin', './assets/img/coin.png')
+  this.load.image('bad', './assets/img/bad-guy.png')
+  this.load.image('pf', './assets/img/platform.png')
+  this.load.image('go', './assets/img/game-over.png')
+  this.load.spritesheet('pl', './assets/img/good-guy.png',
   {frameWidth: 17, frameHeight: 30}
   )
-  this.load.audio('pickup', './assets/coinsound.wav')
-  this.load.audio('bs', './assets/backsound.wav')
+  this.load.audio('pickup', './assets/snd/coinsound.wav')
+  this.load.audio('bs', './assets/snd/backsound.wav')
 }
 
 function create() {

@@ -13,8 +13,8 @@ new Phaser.Game({
   },
   scene: {
     preload() {
-      this.load.image('bg', './assets/background.png')
-      this.load.image('gp', './assets/good-guy.png')
+      this.load.image('bg', './assets/img/newbackg.png')
+      this.load.image('gp', './assets/img/good-guy.png')
     },
     create() {
       this.add.image(0,0,'bg').setOrigin(0,0)
